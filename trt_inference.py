@@ -16,9 +16,6 @@ from six import iteritems
 TRT_LOGGER = trt.Logger(trt.Logger.WARNING)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-ENGINE_FILE = "charrnn.engine"
-
-
 INPUT_BLOB_NAME = "inputData"
 HIDDEN_IN_BLOB_NAME = "hiddenIn"
 HIDDEN_OUT_BLOB_NAME = "hiddenOut"
